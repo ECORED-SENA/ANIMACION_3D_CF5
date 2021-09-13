@@ -1,0 +1,85 @@
+.intro-box
+  background: rgb(232,237,216);
+  background: linear-gradient(45deg, rgba(232,237,216,1) 52%, rgba(0,0,0,0) 100%);
+.bloque-texto-g
+  justify-content: flex-start
+.bloque-texto-g__img
+  right: 0
+  left: inherit
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: $color-primario !important
+  background-color: white
+  color: $color-tipografia
+.tabs-b__tab
+  background-color: $color-primario
+  color: white
+  &:hover
+    background-color: mix($color-primario, white, 70%)
+.cajon.color-acento-contenido
+  background-color: #F8F1E6
+.tabs-b
+  border-bottom: 1px solid $color-primario
+.row-blender
+  background-image: url('../assets/curso/tema2-imagen2.jpg')
+  background-repeat: no-repeat
+.blender-logo
+  max-height: 200px
+  img
+    max-height: 200px
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: $color-tipografia!important
+.tarjeta.blender
+  background: rgb(190,61,52);
+  background: linear-gradient(45deg, rgba(190,61,52,1) 30%, rgba(227,198,157,1) 100%);
+.blender-project
+  position: relative
+  cursor: pointer
+  &:hover
+    &::before
+      background: mix(#E97F00, white, 20%)
+  &::before
+    content: ''
+    position: absolute
+    right: 0
+    left: 19%
+    top: 0
+    bottom: 0
+    background: white
+    border-radius: 15px
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important
+  .col-auto
+    position: relative
+    img
+      width: 60px
+      max-width: 60px
+.title-blender-download
+  strong
+    color: #E97F00
+.linea-tiempo-blender
+  background-color: #F8F1E6
+  border-radius: 30px
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  border: 2px solid $color-primario
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important
+  i
+    color: $color-primario
+.linea-tiempo-c__header__item__year
+  margin-top: 10px
+
+.linea-tiempo-c__header__item
+  margin-top: 10px
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number
+      color: white!important
+
+.number-blender
+  background-color: $color-primario
+  color: white
+  border-radius: 150px
+  font-weight: 600
+
+.slyder-c
+  border-top: 1px solid $color-primario
+  border-bottom: 1px solid $color-primario
