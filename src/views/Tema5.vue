@@ -22,7 +22,7 @@
                   h3.mb-1.text-white Descargar archivo fuente
                   p.text-small.text-white Para el desarrollo de un ejercicio de render, se puede obtener el archivo del objeto de la canica en Canica.blend
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-dark(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.text-dark(href="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/canica.blend" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

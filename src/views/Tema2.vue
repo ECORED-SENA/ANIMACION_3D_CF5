@@ -51,7 +51,7 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.justify-content-center
           .col-auto
-            BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+            BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/08_Test.blend.zip")
       
       div(numero="9" titulo="Ejercicio escultura ")
         p.mb-4 Una vez exploradas las herramientas esenciales del proceso de escultura, es importante implementarlas en un ejercicio básico que permita familiarizarse por completo con sus usos y funcionamiento.
@@ -59,7 +59,7 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.justify-content-center
           .col-auto
-            BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+            BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/Ejercicio_Dragon.blend")
       
       div(numero="10" titulo="Carga de referencia")
         p.mb-4 Las referencias son un elemento fundamental a la hora de abordar cualquier proyecto de escultura ya que estas proveen un objetivo a alcanzar y nos permiten plantear los diferentes caminos posibles para llegar a él. Por tanto, es importante siempre tenerlas a la mano para no perder el rumbo del proyecto.
@@ -78,7 +78,7 @@
                   h3.mb-1.text-white Descargar archivo fuente
                   p.text-small.text-white A continuación, se puede verificar el archivo del personaje como referencia 2D para validar durante el esculpido.
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-dark(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.text-dark(href="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/Concept.zip" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -90,43 +90,49 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/02_Blocking_Cabeza.blend")
         div(titulo="Blocking<br>cuello")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/03_Blocking_Cuello.blend")
         div(titulo="Blocking<br>torso")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/04_Blocking_Torso.blend")
         div(titulo="Blocking<br>brazos")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/05_Blocking_Brazos.blend")
         div(titulo="Blocking mano<br>explicación")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/06_Blocking_Manos.blend")
         div(titulo="Blocking mano<br>construcción")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/06_Blocking_Manos.blend")
         div(titulo="Blocking<br>piernas")
           .video.mb-4
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
-              BlenderProject(:link="obtenerLink('/downloads/prueba.pdf')")
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/07_Blocking_Piernas.blend")
+        div(titulo="Blocking<br>cabello")
+          .video.mb-4
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row.justify-content-center.mb-5
+            .col-auto
+              BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/08_Blocking_Cabello.blend")
   
 </template>
 
