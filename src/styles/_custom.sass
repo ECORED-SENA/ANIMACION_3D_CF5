@@ -1,6 +1,17 @@
 .intro-box
-  background: rgb(232,237,216);
-  background: linear-gradient(90deg, rgba(232,237,216,1) 0%, rgba(241,226,205,1) 35%, rgba(255,255,255,1) 100%);
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    background: rgb(232,237,216);
+    background: linear-gradient(90deg, rgba(232,237,216,1) 0%, rgba(241,226,205,1) 35%, rgba(255,255,255,1) 100%);
+    top: 20%
+    bottom: 20%
+    right: 0
+    left: 0
+  *
+    position: relative
+    
 .bloque-texto-g
   justify-content: flex-start
 .bloque-texto-g__img

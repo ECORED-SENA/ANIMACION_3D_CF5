@@ -30,7 +30,7 @@
         .cajon.color-acento-contenido.px-5.py-2.mx-5.mb-5
           .row.align-items-center
             .col-10
-              p.mb-0 Actualmente y gracias al desarrollo de la tecnología este proceso ha migrado totalmente a digital haciendo uso de herramientas especializadas de software como Zbrush, Mudbox, Blender, entre muchos otros, y tabletas y pantallas digitalizadoras.
+              p.mb-0 Actualmente y gracias al desarrollo de la tecnología este proceso ha migrado totalmente a digital haciendo uso de herramientas especializadas de <i>software</i> como <i>Zbrush, Mudbox, Blender</i>, entre muchos otros, y tabletas y pantallas digitalizadoras.
             .col-2
               img(src="@/assets/curso/tema1-imagen3.png")
 
@@ -48,7 +48,7 @@
           .col-md-4
             figure
               img(src='@/assets/curso/tema1-imagen4.png', alt='Texto que describa la imagen')
-        p.mb-0.px-5 Por lo general, el proceso de escultura digital hace uso de una interfaz de software donde se manipulan geometrías con alto grado de densidad poligonal centrándose primordialmente en la obtención de formas de manera similar a como se manipulaba la plastilina o la arcilla en el medio físico. Para esta manipulación de polígonos se usan brushes (pinceles) que otorgan diferentes efectos cuando se aplican a la masa de polígonos convirtiéndose en un símil a los instrumentos de escultura en el método análogo.
+        p.mb-0.px-5 Por lo general, el proceso de escultura digital hace uso de una interfaz de <i>software</i> donde se manipulan geometrías con alto grado de densidad poligonal centrándose primordialmente en la obtención de formas de manera similar a como se manipulaba la plastilina o la arcilla en el medio físico. Para esta manipulación de polígonos se usan brushes (pinceles) que otorgan diferentes efectos cuando se aplican a la masa de polígonos convirtiéndose en un símil a los instrumentos de escultura en el método análogo.
         
       .py-4.py-md-5(titulo="3. Diferencias con el modelado" :icono="require('@/assets/curso/tema1-tab3.svg')" :iconoa="require('@/assets/curso/tema1-tab3-alt.svg')")
         p.mb-0.px-5 Aunque se trata de un proceso para obtener modelos 3D, el proceso de escultura es sustancialmente diferente al de modelado ya que en el primero es más importante la morfología del objeto que la topología, puesto que requiere enormes cantidades de polígonos para lograr la plasticidad necesaria sobre la geometría haciendo casi imposible obtener estructuras geométricas organizadas durante este proceso.
@@ -62,7 +62,7 @@
             .cajon.color-acento-contenido.px-5.py-2.mb-5
               p.mb-0 Se genera una malla base inicial mediante modelado poligonal, por subdivisiones o NURBS a la que se le añadían algunos detalles por geometría o por medio del pintado de mapas y en ocasiones con escultura digital.
 
-            p.mb-0 En la actualidad, el proceso es a la inversa y solo cuando se tiene una escultura en alta resolución terminada se hacen los procesos de retopología que, en esencia, es una forma de modelado poligonal de baja resolución hecha sobre el modelo de alta resolución, para luego, mediante procesos de baking de mapas, transferir el detalle del modelo de alta resolución construido con polígonos pequeños y desordenados al modelo de baja resolución construido con polígonos grandes y ordenados.
+            p.mb-0 En la actualidad, el proceso es a la inversa y solo cuando se tiene una escultura en alta resolución terminada se hacen los procesos de retopología que, en esencia, es una forma de modelado poligonal de baja resolución hecha sobre el modelo de alta resolución, para luego, mediante procesos de <i>baking</i> de mapas, transferir el detalle del modelo de alta resolución construido con polígonos pequeños y desordenados al modelo de baja resolución construido con polígonos grandes y ordenados.
 
           .col-md-4
             figure

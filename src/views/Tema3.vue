@@ -13,7 +13,7 @@
         p.mb-0 Está técnica proviene del <i>software</i> de escultura Zbrush. En este proceso se puede pintar sobre el modelo directamente, sin crear mapas UV. Adicional, es importante que el objeto que se va a pintar esté en alta densidad, lo que permitirá generar más detalle.
           br
           br
-          | En Blender el contrapeso al <i>polypaint</i> es el <i>vertex paint</i>, en el que se puede pintar directamente sobre el objeto gracias a los vértices que contiene. Sin embargo, entre más contenga realismo el cual se le aplicará durante el momento de pintar puede generar que el objeto quede mucho más pesado. 
+          | En <i>Blender</i> el contrapeso al <i>polypaint</i> es el <i>vertex paint</i>, en el que se puede pintar directamente sobre el objeto gracias a los vértices que contiene. Sin embargo, entre más contenga realismo el cual se le aplicará durante el momento de pintar puede generar que el objeto quede mucho más pesado. 
           br
           br
           | De cualquier modo, no hay necesidad de utilizar mapas UV y los colores se aplican directamente a los vértices según el pincel que se use y se puede revisar cómo acceder al <i>vertex paint</i> a través del panel <i>vertex paint mode</i> y el cual se detalla a través del siguiente video: 

@@ -12,17 +12,17 @@
       .col-md-6.text-white
         figure.blender-logo
           img(src='@/assets/curso/tema2-imagen3.svg')
-        p.mb-0 A continuación, se podrá visualizar el proceso a través del uso y apropiación del software Blender en el cual se detalla el paso a paso de escultura y modelado: 
+        p.mb-0 A continuación, se podrá visualizar el proceso a través del uso y apropiación del <i>software Blender</i> en el cual se detalla el paso a paso de escultura y modelado: 
       .col-md-6
         img(src='@/assets/curso/tema2-imagen1.png')
 
     LineaTiempoD.color-primario.mb-5
       div(numero="1" titulo="Interfaz")
-        p.mb-4 En el siguiente video se realiza la introducción a la interfaz del programa, características y configuraciones generales de Blender.
+        p.mb-4 En el siguiente video se realiza la introducción a la interfaz del programa, características y configuraciones generales de <i>Blender</i>.
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="2" titulo="Navegación")
-        p.mb-4 Cada software tiene su propio sistema de navegación, aunque muchos elementos son comunes a diversos programas es necesario profundizar en el sistema de navegación en Blender.
+        p.mb-4 Cada <i>software</i> tiene su propio sistema de navegación, aunque muchos elementos son comunes a diversos programas es necesario profundizar en el sistema de navegación en <i>Blender</i>.
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="3" titulo="Preferencias")
@@ -30,11 +30,11 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="4" titulo="Interfaz y creación de archivos")
-        p.mb-4 Presentación del espacio de trabajo específico para escultura digital en Blender y las diferentes formas de crear archivos de escultura. 
+        p.mb-4 Presentación del espacio de trabajo específico para escultura digital en <i>Blender</i> y las diferentes formas de crear archivos de escultura. 
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="5" titulo="Brochas")
-        p.mb-4 Las brochas son la herramienta básica para el proceso de escultura en cualquier software de escultura digital, por lo que es necesario conocer los parámetros básicos de la herramienta, así como sus diferentes tipos y usos.
+        p.mb-4 Las brochas son la herramienta básica para el proceso de escultura en cualquier <i>software</i> de escultura digital, por lo que es necesario conocer los parámetros básicos de la herramienta, así como sus diferentes tipos y usos.
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="6" titulo="Simetría")
@@ -42,11 +42,11 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="7" titulo="Remesh")
-        p.mb-4 El Remesh es un sistema de Blender para redistribuir la composición de polígonos de una malla, de forma que se puedan generar nuevos volúmenes y detalles, pero si no se usa correctamente puede causar problemas de pérdida de detalle, de ahí la importancia de entender su lógica e ir iterando en nivel de detalle para aprovechar todo su potencial.
+        p.mb-4 El <i>Remesh</i> es un sistema de <i>Blender</i> para redistribuir la composición de polígonos de una malla, de forma que se puedan generar nuevos volúmenes y detalles, pero si no se usa correctamente puede causar problemas de pérdida de detalle, de ahí la importancia de entender su lógica e ir iterando en nivel de detalle para aprovechar todo su potencial.
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="8" titulo="Dynotopo")
-        p.mb-4 Hay zonas en un modelo que requieren de niveles de detalle mucho más altos que otras partes con formas más generales, para esto sirve la función de Dynotopo ya que permite obtener mayor densidad de polígonos en áreas muy específicas y de esta manera ahorrar poligonaje en el modelo general. 
+        p.mb-4 Hay zonas en un modelo que requieren de niveles de detalle mucho más altos que otras partes con formas más generales, para esto sirve la función de <i>Dynotopo</i> ya que permite obtener mayor densidad de polígonos en áreas muy específicas y de esta manera ahorrar poligonaje en el modelo general. 
         .video.mb-4
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.justify-content-center
@@ -82,7 +82,7 @@
                     span Descargar
                     i.fas.fa-file-download
     
-    p.mb-5 Finalmente, a través del siguiente paso a paso se puede realizar una forma base para el diseño de objetos 3D con el proceso de blocking para, posteriormente, asignar detalles a cada una de las piezas diseñadas: 
+    p.mb-5 Finalmente, a través del siguiente paso a paso se puede realizar una forma base para el diseño de objetos 3D con el proceso de <i>blocking</i> para, posteriormente, asignar detalles a cada una de las piezas diseñadas: 
     .linea-tiempo-blender.px-5.pt-4
       LineaTiempoEspecial.color-primario(text-small)
         div(titulo="Blocking<br>cabeza")

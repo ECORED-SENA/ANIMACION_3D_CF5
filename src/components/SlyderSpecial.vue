@@ -6,17 +6,17 @@
       :key="'key-'+getId(index)"
       :id="getId(index)"
     )
-      .row.px-5
+      .row.px-5.py-3
         .col-auto
           .number-blender.px-4.py-3
             span {{ item.number }}
         .col
-          .text-blender.mb-5(v-if="item.text1") {{ item.text1 }}
+          .text-blender.mb-5(v-if="item.text1" v-html="item.text1")
           .titulo-sexto.color-secundario
-            h5 Figura {{ item.number }}
+            h5 Figura {{ item.figure }}
             br
             span
-              i {{ item.text2 }}
+              i(v-html="item.text2")
           .slyder-c__imagen.mb-4
             figure.slyder-c__img
               img(:src='item.imagen', :alt='item.leyendaImagen')
