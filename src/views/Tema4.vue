@@ -17,7 +17,24 @@
 
     p.mb-4.text-center.fw-bold Enseguida, puede detallar el posado para el personaje propuesto:
 
-    SlyderSpecial.mb-5(:datos="datosSlyder")
+    //- SlyderSpecial.mb-5(:datos="datosSlyder")
+
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      //- PasosB debe ir acompañado de una de una de estas clases => 
+      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+      PasosB.color-primario
+
+        .row.px-5.py-3(v-for="item in datosSlyder" titulo="")
+          .text-blender.mb-5(v-if="item.text1" v-html="item.text1")
+          .titulo-sexto.color-secundario
+            h5 Figura {{ item.figure }}
+            br
+            span
+              i(v-html="item.text2")
+          .slyder-c__imagen.mb-4
+            figure.slyder-c__img
+              img(:src='item.imagen', :alt='item.leyendaImagen')
+              figcaption(v-if="item.leyendaImagen") {{item.leyendaImagen}}
   
 </template>
 
