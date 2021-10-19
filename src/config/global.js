@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'La conceptualización 3D permite el desarrollo de personajes, para posteriormente pasar por la concepción digital, posado, polypaint y representación en tiempo real del objeto o las escenas realizadas con su color, formas, texturas.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
