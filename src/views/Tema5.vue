@@ -8,7 +8,7 @@
         span 5
       h1 Render en tiempo real
 
-    p.mb-5 Es la forma como se pueden renderizar durante el trabajo de modelado y texturizado los objetos 3D para tener un acercamiento final. Esto permite interactuar con los objetos modificando las luces, colores y materiales para ver cómo podrían quedar finalmente lo cual facilita el flujo de trabajo, pues no hay que esperar a crear el render final el cual toma bastante tiempo y sí lograr hacer ajustes de una manera mucho más rápida. 
+    p.mb-5 Es la forma como se pueden renderizar durante el trabajo de modelado y texturizado los objetos 3D para tener un acercamiento final. Esto permite interactuar con los objetos modificando las luces, colores y materiales para ver cómo podrían quedar finalmente lo cual facilita el flujo de trabajo, pues no hay que esperar a crear el render final el cual toma bastante tiempo y sí lograr hacer ajustes de una manera mucho más rápida.
 
     .row.mb-5.justify-content-center
       .col-10
@@ -29,8 +29,8 @@
     p.mb-5.text-center.fw-bold Finalmente, se puede crear el renderizado prestando atención al siguiente video:
 
     .video.mb-0
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-  
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/epC2E8ZOedA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>

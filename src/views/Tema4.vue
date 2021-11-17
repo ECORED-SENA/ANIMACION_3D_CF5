@@ -13,7 +13,7 @@
     p.mb-4.text-center.fw-bold Ahora se verá el posado en <i>Blender</i>:
 
     .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/zAZ7Sn5VTQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-4.text-center.fw-bold Enseguida, puede detallar el posado para el personaje propuesto:
 

@@ -24,11 +24,11 @@
       div(numero="2" titulo="Navegación")
         p.mb-4 Cada <i>software</i> tiene su propio sistema de navegación, aunque muchos elementos son comunes a diversos programas es necesario profundizar en el sistema de navegación en <i>Blender</i>.
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Bdffy-jbr7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="3" titulo="Preferencias")
         p.mb-4 Para hacer más óptimo el flujo de trabajo es importante conocer cuáles configuraciones de las preferencias del programa son importantes modificar.
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/zOYi0xSVR1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="4" titulo="Interfaz y creación de archivos")
         p.mb-4 Presentación del espacio de trabajo específico para escultura digital en <i>Blender</i> y las diferentes formas de crear archivos de escultura.
         .video
@@ -111,7 +111,7 @@
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/05_Blocking_Brazos.blend")
         div(titulo="Blocking mano<br>explicación")
           .video.mb-4
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Njq8wjNFtfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/06_Blocking_Manos.blend")
@@ -123,7 +123,7 @@
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/06_Blocking_Manos.blend")
         div(titulo="Blocking<br>piernas")
           .video.mb-4
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/UVmJuty6ipA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/07_Blocking_Piernas.blend")
