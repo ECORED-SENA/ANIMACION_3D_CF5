@@ -111,7 +111,7 @@
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/05_Blocking_Brazos.blend")
         div(titulo="Blocking mano<br>explicación")
           .video.mb-4
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/Njq8wjNFtfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/JMo2ADWNvlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .row.justify-content-center.mb-5
             .col-auto
               BlenderProject(link="https://github.com/ECORED-SENA/ANIMACION_3D_DESCARGAS/raw/master/CF5/06_Blocking_Manos.blend")
