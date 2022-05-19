@@ -68,7 +68,7 @@ export default {
         number: 3,
         figure: '3',
         text1:
-          'Con esta herramienta se puede posar la escultura, para ello se poner el cursor donde se quiere generar el movimiento, dependiendo del tamaño del pincel se obtendrán los resultados que se buscan; dependiendo del tamaño del pincel se puede acomodar el elemento para que gire o se mueva correctamente. ',
+          'Con esta herramienta se puede posar la escultura, para ello se pone el cursor donde se quiere generar el movimiento, dependiendo del tamaño del pincel se obtendrán los resultados que se buscan; dependiendo del tamaño del pincel se puede acomodar el elemento para que gire o se mueva correctamente. ',
         text2: 'Figura para posado en <i>Blender</i>',
       },
       {
@@ -92,7 +92,7 @@ export default {
         number: 6,
         figure: '6',
         text1:
-          'Para manejar estos errores de una manera óptima, lo que se puede hacer es crear måscaras para que solo el pincel afecte el área no mascarada. La manera de hacerlo es presionando Ctrl + shift y clicar manteniendo y seleccionando el årea que se quiere afectar.',
+          'Para manejar estos errores de una manera óptima, lo que se puede hacer es crear máscaras para que solo el pincel afecte el área no mascarada. La manera de hacerlo es presionando Ctrl + shift y clicar manteniendo y seleccionando el área que se quiere afectar.',
         text2: 'Figura para posado en <i>Blender</i>',
       },
       {
@@ -116,7 +116,7 @@ export default {
         number: 9,
         figure: '9 y 10',
         text1:
-          'Una vez hecho esto, se puede mover el área sin mayor dificultad; para quitar la máscara y seguir posando el personaje, se debe dar Alt + m. <br><br> Tambien se puede utilizar el <i>Pincel transform</i>, de manera similar, tan solo se selecciona y nuevamente de crea una máscara.',
+          'Una vez hecho esto, se puede mover el área sin mayor dificultad; para quitar la máscara y seguir posando el personaje, se debe dar Alt + m. <br><br> También se puede utilizar el <i>Pincel transform</i>, de manera similar, tan solo se selecciona y nuevamente se crea una máscara.',
         text2: 'Figura para posado en <i>Blender</i>',
       },
       {
